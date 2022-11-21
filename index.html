@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Azkar App</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body dir="rtl">
+    <div class="container">
+      <h1 class="name-title">تطبيق الأذكار</h1>
+      <div class="form">
+        <div class="btns-azkar-one" id="btnsazkarone">
+          <h1 class="btn-one" id="btnone">أستغفر اللَّه</h1>
+          <button class="btn" id="btn" onclick="rowOne()"></button>
+        </div>
+        <div class="btns-azkar-two" id="btnsazkartwo">
+          <h1 class="btn-one" id="btnone">الحمد اللَّه</h1>
+          <button class="btns" id="btns" onclick="rowTwo()"></button>
+        </div>
+        <div class="btn-reset-all">
+          <button class="btn-reset" id="btnreset" onclick="resetAll()">
+            إعادة الكل
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="js/js.js"></script>
+  </body>
+</html>
